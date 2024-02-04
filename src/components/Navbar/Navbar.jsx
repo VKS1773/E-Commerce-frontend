@@ -19,7 +19,7 @@ function Navbar() {
      </ul>
      <div className="nav-login-cart">
       <button><Link to="/login">Login</Link></button>
-      <Link to='/cart'><img src={cart_icon} alt="" /></Link>
+      <Link tyle={{textDecoration:'none'}} to='/cart'><img src={cart_icon} alt="" /></Link>
       <div className="cart_icon_count">0</div>
      </div>
       </div>
